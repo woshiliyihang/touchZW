@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        // 初始化opencv工具类
         DrawZW.onResume(this, new Runnable() {
             @Override
             public void run() {
@@ -31,10 +32,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void startAnim() {
+        //R.mipmap.zhiwen 前景图 R.mipmap.zhiwen_gr 背景图
         drawZW = new DrawZW((ImageView) findViewById(R.id.img), R.mipmap.zhiwen, R.mipmap.zhiwen_gr);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
+                // x y r 分别代表这个 圆心 xy 点  和 半径 r
                 drawZW.logic(drawZW.getRgb().cols()/2,drawZW.getRgb().rows()/2, (int) (drawZW.getRgb().cols()*0.4f), 700);
             }
         }, 2001);
