@@ -9,14 +9,14 @@ android的一个指纹验证效果
 https://github.com/woshiliyihang/touchZW
 
 #### 效果图：
-<img src="https://img-blog.csdnimg.cn/20200723093402503.gif" width = "200" height = "400" alt="指纹验证" />
+<img src="https://img2020.cnblogs.com/blog/632138/202007/632138-20200723095617002-1173835970.gif" width = "200" height = "400" alt="指纹验证" />
 
 #### 前期准备
 效果不是非常好但是修改定制简单，所需要准备的有两张图片：
 前景图：
-<img src="https://img-blog.csdnimg.cn/20200723093527426.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21oaHlvdWNvbQ==,size_16,color_FFFFFF,t_70" width = "100" height = "150" alt="指纹验证" />
+<img src="https://img2020.cnblogs.com/blog/632138/202007/632138-20200723095642204-1934060842.png" width = "100" height = "150" alt="指纹验证" />
 背景图：
-<img src="https://img-blog.csdnimg.cn/20200723093527323.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21oaHlvdWNvbQ==,size_16,color_FFFFFF,t_70" width = "100" height = "150" alt="指纹验证" />
+<img src="https://img2020.cnblogs.com/blog/632138/202007/632138-20200723095649749-166028841.png" width = "100" height = "150" alt="指纹验证" />
 
 一个是红色前景，一个黑色背景，两张图片尺寸一样大。
 
